@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miguel's Awesome Text Adventure", "Miguel's Awesome Text Adventure\Miguel's Awesome Text Adventure.csproj", "{13A91EFB-6C89-415D-9E3E-7B1C84905229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A91EFB-6C89-415D-9E3E-7B1C84905229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A91EFB-6C89-415D-9E3E-7B1C84905229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A91EFB-6C89-415D-9E3E-7B1C84905229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A91EFB-6C89-415D-9E3E-7B1C84905229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC20382E-AFE6-4857-A694-FB6106098DF1}
+	EndGlobalSection
+EndGlobal
