@@ -11,7 +11,7 @@ new("M3ss-H@ll"), new("MessHa11"), new("Më$$ Häll"), new("Me55 Hall"), new("M3
 ];
 List<Question> Brigde =
 [
-    new("bRidGE"),
+    new("bRidGE1"),
     new("B_R_I_D_G_E"),
     new("br1dge"),
     new("BRIDGE"),
@@ -110,7 +110,8 @@ string Name;
 int PoopRoomCount = 0;
 int Toastcount = 0;
 int Oatscount = 0;
-int BigBangCredits = 0;
+int BigBangCredits = 50;
+
 
 Console.WriteLine("Welcome To Miguel's Awesome Text Adventure");
 Console.WriteLine();
@@ -166,7 +167,8 @@ if (Start == "Start" || Start == "START"|| Start == "start")
             Console.WriteLine("You walk into the Medbay");
             if (Toastcount >= 1)
             {
-                
+                Console.WriteLine("You took a pill to fix your gluten allergy");
+                Toastcount = 0;
             }
             Thread.Sleep(3500);
             Console.Clear();
